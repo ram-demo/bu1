@@ -1,4 +1,4 @@
-```name: Deploy
+name: Deploy
 on:
   push:
     branches:
@@ -76,4 +76,4 @@ jobs:
           IAM_VERSION: "0.5.4"
           KUBE_NAMESPACE: qa-email-ns
         with:
-          args: rollout status deployment/qa-email-deployment -n $KUBE_NAMESPACE```
+          args: rollout status deployment/qa-email-deployment -n $KUBE_NAMESPACE
