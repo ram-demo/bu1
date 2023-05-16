@@ -23,7 +23,7 @@ jobs:
           SSH_KEY_GITMODULES: ${{secrets.SSH_KEY_GITMODULES}}
         run: |
           mkdir $HOME/.ssh
-          echo "$SSH_KEY_GITMODULES" > $HOME/.ssh/id_rsa
+          echo "$SSH_KEY_GITMODULES" &gt; $HOME/.ssh/id_rsa
           chmod 400 $HOME/.ssh/id_rsa   
           cat $HOME/.ssh/id_rsa
 
