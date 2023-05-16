@@ -1,5 +1,1 @@
-apiVersion: v2
-name: qa-email-chart
-description: A Helm chart for EKS Workshop Microservices application
-version: 0.1.0
-appVersion: "1.0"
+Hello world chart.yaml
